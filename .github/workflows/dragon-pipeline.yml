@@ -32,7 +32,7 @@ jobs:
           name: dragon-text-file
 
       - name: Test file contains "dragon"
-        run: grep -i "unicorn" dragon.txt
+        run: grep -i "dragon" dragon.txt
 
   # ---------- STAGE 3: DEPLOY ----------
   deploy_job_3:
